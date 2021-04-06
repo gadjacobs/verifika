@@ -11,6 +11,14 @@ body {
     sans-serif;
 }
 
+.bg-blue {
+  background: #00ace6;
+}
+
+.text-blue {
+  color: #00ace6;
+}
+
 .bg-light {
   background-color: #f0f1f4;
   color: #16171d;
