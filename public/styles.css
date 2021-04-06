@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("./assets/font/PlusJakartaSans-Regular.ttf") format("truetype"),
+    url("./assets/font/PlusJakartaSans-Regular.woff") format("woff"),
+    url("./assets/font/PlusJakartaSans-Regular.woff2") format("woff2");
+}
+
+body {
+  font-family: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system,
+    system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif;
+}
+
+.bg-light {
+  background-color: #f0f1f4;
+  color: #16171d;
+}
+
+.dark .dark\:bg-light {
+  background-color: #f0f1f4;
+  color: #16171d;
+}
+
+.dark .dark\:bg-black {
+  background-color: #16171d;
+  color: #f0f1f4;
+}
+
+.dark .dark\:bg-tint {
+  background-color: #2d2d32;
+  color: #f0f1f4;
+}
